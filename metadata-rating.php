@@ -106,15 +106,3 @@ if (!function_exists('apt_meta_rating_get')):
 
 	}
 endif;
-/**
- * To display meta data added to a post use this code in the loop
- */
-//$meta_value = get_post_meta( get_the_ID(), 'apt_meta_rating', true );
-//if( !empty( $meta_value ) ) {
-//	echo $meta_value;
-//}
-
-/**
- * To delete all post meta values spacified by key, use this code
- */
-//delete_post_meta_by_key('apt_meta_rating');
